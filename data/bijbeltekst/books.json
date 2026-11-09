@@ -1,0 +1,388 @@
+{
+    "GEN": {
+        "short": "Gen.",
+        "long": "Genesis",
+        "url": "GEN"
+    },
+    "EXO": {
+        "short": "Ex.",
+        "long": "Exodus",
+        "url": "EXO"
+    },
+    "LEV": {
+        "short": "Lev.",
+        "long": "Leviticus",
+        "url": "LEV"
+    },
+    "NUM": {
+        "short": "Num.",
+        "long": "Numeri",
+        "url": "NUM"
+    },
+    "DEU": {
+        "short": "Deut.",
+        "long": "Deuteronomium",
+        "url": "DEU"
+    },
+    "JOS": {
+        "short": "Joz.",
+        "long": "Jozua",
+        "url": "JOS"
+    },
+    "JDG": {
+        "short": "Recht.",
+        "long": "Rechters",
+        "url": "JDG"
+    },
+    "RUT": {
+        "short": "Ruth",
+        "long": "Ruth",
+        "url": "RUT"
+    },
+    "1SA": {
+        "short": "1 Sam.",
+        "long": "1 Samuel",
+        "url": "1SA"
+    },
+    "2SA": {
+        "short": "2 Sam.",
+        "long": "2 Samuel",
+        "url": "2SA"
+    },
+    "1KGS": {
+        "short": "1 Kon.",
+        "long": "1 Koningen",
+        "url": "1KI"
+    },
+    "2KGS": {
+        "short": "2 Kon.",
+        "long": "2 Koningen",
+        "url": "2KI"
+    },
+    "1CH": {
+        "short": "1 Kron.",
+        "long": "1 Kronieken",
+        "url": "1CH"
+    },
+    "2CH": {
+        "short": "2 Kron.",
+        "long": "2 Kronieken",
+        "url": "2CH"
+    },
+    "EZR": {
+        "short": "Ezra",
+        "long": "Ezra",
+        "url": "EZR"
+    },
+    "NEH": {
+        "short": "Neh.",
+        "long": "Nehemia",
+        "url": "NEH"
+    },
+    "EST": {
+        "short": "Est.",
+        "long": "Ester",
+        "url": "EST"
+    },
+    "JOB": {
+        "short": "Job",
+        "long": "Job",
+        "url": "JOB"
+    },
+    "PS": {
+
+        "short": "Ps.",
+        "long": "Psalmen",
+        "url": "PSA"
+    },
+    "PRO": {
+        "short": "Spr.",
+        "long": "Spreuken",
+        "url": "PRO"
+    },
+    "ECC": {
+        "short": "Pred.",
+        "long": "Prediker",
+        "url": "ECC"
+    },
+    "SONG": {
+        "short": "Hoogl.",
+        "long": "Hooglied",
+        "url": "SNG"
+    },
+    "ISA": {
+        "short": "Jes.",
+        "long": "Jesaja",
+        "url": "ISA"
+    },
+    "JER": {
+        "short": "Jer.",
+        "long": "Jeremia",
+        "url": "JER"
+    },
+    "LAM": {
+        "short": "Klaagl.",
+        "long": "Klaagliederen",
+        "url": "LAM"
+    },
+    "EZEK": {
+        "short": "Ezech.",
+        "long": "Ezechiël",
+        "url": "EZK"
+    },
+    "DAN": {
+        "short": "Dan.",
+        "long": "Daniël",
+        "url": "DAN"
+    },
+    "HOS": {
+        "short": "Hos.",
+        "long": "Hosea",
+        "url": "HOS"
+    },
+    "JOEL": {
+        "short": "Joël",
+        "long": "Joël",
+        "url": "JOL"
+    },
+    "AMO": {
+        "short": "Amos",
+        "long": "Amos",
+        "url": "AMO"
+    },
+    "OBA": {
+        "short": "Ob.",
+        "long": "Obadja",
+        "url": "OBA"
+    },
+    "JON": {
+        "short": "Jona",
+        "long": "Jona",
+        "url": "JON"
+    },
+    "MIC": {
+        "short": "Micha",
+        "long": "Micha",
+        "url": "MIC"
+    },
+    "NAH": {
+        "short": "Nah.",
+        "long": "Nahum",
+        "url": "NAM"
+    },
+    "HAB": {
+        "short": "Hab.",
+        "long": "Habakuk",
+        "url": "HAB"
+    },
+    "ZEP": {
+        "short": "Sef.",
+        "long": "Sefanja",
+        "url": "ZEP"
+    },
+    "HAG": {
+        "short": "Hag.",
+        "long": "Haggai",
+        "url": "HAG"
+    },
+    "ZEC": {
+        "short": "Zach.",
+        "long": "Zacharia",
+        "url": "ZEC"
+    },
+    "MAL": {
+        "short": "Mal.",
+        "long": "Maleachi",
+        "url": "MAL"
+    },
+    "MAT": {
+        "short": "Mat.",
+        "long": "Matteüs",
+        "url": "MAT"
+    },
+    "MARK": {
+        "short": "Marc.",
+        "long": "Marcus",
+        "url": "MRK"
+    },
+    "LUK": {
+        "short": "Luc.",
+        "long": "Lucas",
+        "url": "LUK"
+    },
+    "JOHN": {
+        "short": "Joh.",
+        "long": "Johannes",
+        "url": "JHN"
+    },
+    "ACT": {
+        "short": "Hand.",
+        "long": "Handelingen",
+        "url": "ACT"
+    },
+    "ROM": {
+        "short": "Rom.",
+        "long": "Romeinen",
+        "url": "ROM"
+    },
+    "1CO": {
+        "short": "1 Kor.",
+        "long": "1 Korintiërs",
+        "url": "1CO"
+    },
+    "2CO": {
+        "short": "2 Kor.",
+        "long": "2 Korintiërs",
+        "url": "2CO"
+    },
+    "GAL": {
+        "short": "Gal.",
+        "long": "Galaten",
+        "url": "GAL"
+    },
+    "EPH": {
+        "short": "Ef.",
+        "long": "Efeziërs",
+        "url": "EPH"
+    },
+    "PHIL": {
+        "short": "Filip.",
+        "long": "Filippenzen",
+        "url": "PHP"
+    },
+    "COL": {
+        "short": "Kol.",
+        "long": "Kolossenzen",
+        "url": "COL"
+    },
+    "1TH": {
+        "short": "1 Tes.",
+        "long": "1 Tessalonicenzen",
+        "url": "1TH"
+    },
+    "2TH": {
+        "short": "2 Tes.",
+        "long": "2 Tessalonicenzen",
+        "url": "2TH"
+    },
+    "1TI": {
+        "short": "1 Tim.",
+        "long": "1 Timoteüs",
+        "url": "1TI"
+    },
+    "2TI": {
+        "short": "2 Tim.",
+        "long": "2 Timoteüs",
+        "url": "2TI"
+    },
+    "TIT": {
+        "short": "Titus",
+        "long": "Titus",
+        "url": "TIT"
+    },
+    "PHLM": {
+        "short": "Filem.",
+        "long": "Filemon",
+        "url": "PHM"
+    },
+    "HEB": {
+        "short": "Hebr.",
+        "long": "Hebreeën",
+        "url": "HEB"
+    },
+    "JAS": {
+        "short": "Jak.",
+        "long": "Jakobus",
+        "url": "JAS"
+    },
+    "1PE": {
+        "short": "1 Petr.",
+        "long": "1 Petrus",
+        "url": "1PE"
+    },
+    "2PE": {
+        "short": "2 Petr.",
+        "long": "2 Petrus",
+        "url": "2PE"
+    },
+    "1JOHN": {
+        "short": "1 Joh.",
+        "long": "1 Johannes",
+        "url": "1JN"
+    },
+    "2JOHN": {
+        "short": "2 Joh.",
+        "long": "2 Johannes",
+        "url": "2JN"
+    },
+    "3JOHN": {
+        "short": "3 Joh.",
+        "long": "3 Johannes",
+        "url": "3JN"
+    },
+    "JUD": {
+        "short": "Judas",
+        "long": "Judas",
+        "url": "JUD"
+    },
+    "REV": {
+        "short": "Op.",
+        "long": "Openbaring",
+        "url": "REV"
+    },
+    "TOB": {
+        "short": "Tob.",
+        "long": "Tobit",
+        "url": "TOB"
+    },
+    "JDT": {
+        "short": "Judit",
+        "long": "Judit",
+        "url": "JDT"
+    },
+    "ESG": {
+        "short": "Est.Gr.",
+        "long": "Ester (Gr.)",
+        "url": "ESG"
+    },
+    "1MA": {
+        "short": "1 Mak.",
+        "long": "1 Makkabeeën",
+        "url": "1MA"
+    },
+    "2MA": {
+        "short": "2 Mak.",
+        "long": "2 Makkabeeën",
+        "url": "2MA"
+    },
+    "WIS": {
+        "short": "Wijsh.",
+        "long": "Wijsheid",
+        "url": "WIS"
+    },
+    "SIR": {
+        "short": "Sir.",
+        "long": "Sirach",
+        "url": "SIR"
+    },
+    "BAR": {
+        "short": "Bar.",
+        "long": "Baruch",
+        "url": "BAR"
+    },
+    "LJE": {
+        "short": "Br.Jer.",
+        "long": "Brief van Jeremia",
+        "url": "LJE"
+    },
+    "DAG": {
+        "short": "Dan.Gr.",
+        "long": "Daniël (Gr.)",
+        "url": "DAG"
+    },
+    "MAN": {
+        "short": "Man.",
+        "long": "Manasse",
+        "url": "MAN"
+    }
+}

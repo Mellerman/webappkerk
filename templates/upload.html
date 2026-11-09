@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liturgie → PowerPoint</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg-night:   #17110c;
+      --bg-dusk:    #4a3323;
+      --bg-haze:    #cfa877;
+      --bg-cream:   #f2e2c9;
+      --terracotta: #c9895a;
+      --terracotta-dark: #a86f45;
+      --card:       #241a12;
+      --card-line:  rgba(255,255,255,0.14);
+      --ink:        #241a12;
+      --paper:      #fbf3e6;
+      --white:      #ffffff;
+    }
+    *{ box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: "Inter", system-ui, sans-serif;
+      color: var(--paper);
+      background: var(--bg-night);
+    }
+
+    /* ---------- hero ---------- */
+    .hero{
+      position: relative;
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(120% 65% at 78% 78%, var(--bg-haze) 0%, rgba(207,168,119,0) 60%),
+        radial-gradient(90% 55% at 12% 30%, rgba(74,51,35,.9) 0%, rgba(23,17,12,0) 55%),
+        linear-gradient(180deg, var(--bg-night) 0%, var(--bg-dusk) 55%, var(--bg-haze) 100%);
+    }
+    .hero::after{
+      /* soft ground band */
+      content:"";
+      position: absolute; left:0; right:0; bottom:0; height: 34%;
+      background: linear-gradient(180deg, rgba(23,17,12,0) 0%, var(--bg-night) 78%);
+      pointer-events: none;
+    }
+    .hero::before{
+      /* distant treeline */
+      content:"";
+      position: absolute; left:0; right:0; bottom: 12%; height: 90px;
+      background-image: radial-gradient(circle at 8% 60%, rgba(23,17,12,.55) 0 26px, transparent 27px),
+                         radial-gradient(circle at 22% 55%, rgba(23,17,12,.5) 0 32px, transparent 33px),
+                         radial-gradient(circle at 40% 62%, rgba(23,17,12,.55) 0 24px, transparent 25px),
+                         radial-gradient(circle at 63% 58%, rgba(23,17,12,.5) 0 30px, transparent 31px),
+                         radial-gradient(circle at 82% 60%, rgba(23,17,12,.55) 0 26px, transparent 27px),
+                         radial-gradient(circle at 95% 56%, rgba(23,17,12,.5) 0 22px, transparent 23px);
+      opacity:.75;
+      pointer-events: none;
+    }
+
+    .badge{
+      align-self: center;
+      margin-top: 44px;
+      display:flex; align-items:center; gap:10px;
+      background: rgba(23,17,12,.65);
+      border: 1px solid var(--card-line);
+      color: var(--paper);
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: .9rem;
+      font-weight: 600;
+      backdrop-filter: blur(6px);
+    }
+    .badge svg.badge-icon{ width: 26px; height: 26px; }
+
+    .hero-inner{
+      position: relative;
+      z-index: 2;
+      max-width: 1040px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 40px 32px 0;
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .steeple{
+      position: absolute;
+      left: 4%;
+      top: 78px;
+      width: min(46vw, 460px);
+      opacity: .95;
+    }
+
+    .copy{
+      grid-column: 1 / -1;
+      margin-left: auto;
+      max-width: 560px;
+      text-align: right;
+      padding-top: 70px;
+    }
+    h1{
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: clamp(2.1rem, 4.2vw, 3rem);
+      line-height: 1.1;
+      margin: 0 0 16px;
+      color: var(--white);
+    }
+    h1 .arrow{ color: var(--terracotta); font-weight: 400; padding: 0 6px; }
+    h1 .to{ background: linear-gradient(90deg, var(--terracotta), #e2b587); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .lede{
+      margin: 0;
+      color: #e7d8c2;
+      line-height: 1.6;
+      font-size: 1.02rem;
+    }
+
+    /* ---------- upload card ---------- */
+    .card-wrap{
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 32px;
+    }
+    form.card{
+      width: min(100%, 460px);
+      background: rgba(23,17,12,.72);
+      border: 1px solid var(--card-line);
+      border-radius: 22px;
+      padding: 32px 30px 26px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 30px 60px rgba(0,0,0,.45);
+      display: grid;
+      gap: 18px;
+    }
+    .upload-icon{
+      justify-self: center;
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      background: rgba(201,137,90,.18);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--terracotta);
+      margin-bottom: 4px;
+    }
+    .field label{
+      display:block;
+      font-weight: 600;
+      font-size: .92rem;
+      color: var(--paper);
+      margin-bottom: 10px;
+    }
+    .file-input{
+      display:flex; align-items:center; gap:12px;
+      background: rgba(255,255,255,.03);
+      border: 1px solid var(--card-line);
+      border-radius: 12px;
+      padding: 6px;
+    }
+    .file-input input[type=file]{
+      color: #cbb99e;
+      font-size: .88rem;
+      width: 100%;
+    }
+    .file-input input[type=file]::file-selector-button{
+      background: var(--terracotta);
+      color: var(--ink);
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-weight: 600;
+      font-size: .88rem;
+      cursor: pointer;
+      margin-right: 12px;
+    }
+    button.submit{
+      display:flex; align-items:center; justify-content:center; gap:10px;
+      background: var(--terracotta);
+      color: var(--ink);
+      border: none;
+      border-radius: 12px;
+      padding: 16px 18px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .15s ease, transform .15s ease;
+    }
+    button.submit:hover{ background: var(--terracotta-dark); transform: translateY(-1px); }
+    button.submit svg{ width: 18px; height: 18px; }
+
+    .alert{
+      background: rgba(255,214,120,.12);
+      border: 1px solid rgba(255,214,120,.35);
+      color: #ffe1a8;
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: .9rem;
+    }
+    .alert ul{ margin:0; padding-left: 18px; }
+
+    /* ---------- wordmark ---------- */
+    .wordmark{
+      grid-column: 1 / -1;
+      position: relative;
+      z-index: 2;
+      margin-top: 60px;
+    }
+    .wordmark .eyebrow{
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 1.3rem;
+      color: #e7d8c2;
+      display:block;
+    }
+    .wordmark .name{
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      font-size: clamp(1.6rem, 3.4vw, 2.2rem);
+      color: var(--white);
+      display:block;
+      line-height: 1;
+    }
+
+    /* ---------- footer credit ---------- */
+    .credit{
+      position: relative;
+      z-index: 2;
+      background: var(--bg-night);
+      text-align: center;
+      color: #8a7a63;
+      font-size: .8rem;
+      letter-spacing: .02em;
+      padding: 4px 0 22px;
+    }
+
+    /* ---------- steps strip ---------- */
+    .steps{
+      position: relative;
+      z-index: 2;
+      background: var(--bg-night);
+      padding: 34px 32px 44px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+    .step{ display:flex; gap:14px; align-items:flex-start; }
+    .step-icon{
+      flex: none;
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      background: rgba(201,137,90,.16);
+      color: var(--terracotta);
+      display:flex; align-items:center; justify-content:center;
+    }
+    .step h3{
+      margin: 4px 0 4px;
+      font-size: 1rem;
+      color: var(--white);
+      font-weight: 700;
+    }
+    .step p{
+      margin: 0;
+      font-size: .88rem;
+      color: #c7b79c;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 760px){
+      .steeple{ display:none; }
+      .copy, .card-wrap{ text-align: left; margin-left: 0; align-items: flex-start; justify-content: flex-start; }
+      .hero-inner{ padding-top: 24px; }
+      .steps{ grid-template-columns: 1fr; padding: 28px 24px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- exact traced church-tower mark, reused everywhere -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <g id="kerklogo-mark" transform="translate(-61.261010,449.888584) scale(0.1,-0.1)">
+        <path d="M1394 4485 c-4 -8 -12 -15 -20 -15 -17 0 61 -82 94 -99 13 -7 27 -9
+30 -5 4 4 1 9 -6 11 -7 3 -16 12 -21 22 -7 13 -5 17 10 18 10 1 19 -2 19 -7 0
+-5 9 -12 20 -15 16 -5 20 -15 20 -56 l0 -49 -56 0 c-34 0 -53 -4 -49 -10 3 -5
+26 -10 50 -10 24 0 45 -3 48 -7 2 -5 1 -33 -1 -63 -3 -46 -8 -58 -25 -65 -18
+-8 -23 -22 -29 -71 -10 -94 -24 -137 -94 -287 -36 -76 -71 -155 -79 -175 -27
+-70 -56 -198 -81 -362 -15 -99 -34 -185 -47 -215 -55 -123 -72 -148 -127 -186
+-30 -21 -67 -41 -83 -44 -31 -8 -58 -57 -88 -165 -14 -50 -27 -72 -55 -97 -20
+-18 -52 -36 -71 -39 -61 -12 -67 -32 -71 -253 -4 -190 0 -278 34 -771 18 -269
+14 -529 -10 -663 -13 -71 -65 -249 -93 -314 -2 -7 2 -13 10 -13 29 0 97 205
+122 370 19 125 19 464 0 702 -26 334 -37 591 -30 726 4 74 10 146 14 160 5 20
+22 34 63 54 67 32 93 64 114 137 34 117 42 128 101 156 95 43 129 77 177 179
+38 81 46 110 70 266 38 243 64 335 150 523 78 170 95 218 105 305 3 29 11 53
+16 54 6 0 22 -23 38 -53 22 -43 31 -85 47 -204 20 -155 23 -169 70 -370 43
+-183 68 -329 75 -445 8 -132 18 -172 55 -214 30 -34 51 -44 127 -65 64 -18 97
+-52 133 -139 38 -91 59 -123 94 -141 14 -8 28 -21 32 -30 4 -9 10 -90 13 -179
+l6 -164 28 -24 c23 -19 32 -22 48 -14 10 6 48 68 83 138 81 160 116 208 169
+233 46 20 158 26 214 10 22 -6 52 -5 95 5 155 34 445 84 568 99 74 8 242 20
+373 25 250 11 389 22 497 42 36 7 72 12 80 12 8 1 25 -17 37 -39 12 -22 23
+-36 23 -32 0 15 -28 62 -49 81 -19 18 -24 18 -113 3 -148 -26 -158 -27 -464
+-42 -161 -8 -336 -20 -390 -25 -119 -13 -423 -65 -514 -87 -42 -10 -104 -15
+-175 -14 -209 3 -257 -29 -366 -244 -41 -79 -77 -145 -81 -145 -4 0 -14 13
+-23 30 -11 21 -15 62 -15 157 0 155 -9 190 -54 221 -23 16 -43 43 -61 85 -73
+165 -76 169 -182 198 -39 11 -78 30 -93 44 -37 35 -60 112 -60 199 0 97 -21
+229 -69 431 -50 215 -67 305 -82 430 -12 108 -38 190 -73 233 -19 23 -22 35
+-17 87 l6 60 44 5 c25 3 46 11 49 19 4 11 -5 12 -41 7 l-45 -7 -4 48 c-5 56
+-1 65 16 40 8 -9 26 -17 42 -17 25 1 26 2 12 11 -25 14 -22 29 4 29 34 0 13
+13 -92 59 -101 44 -137 50 -146 26z m131 -45 c3 -5 1 -10 -4 -10 -6 0 -11 5
+-11 10 0 6 2 10 4 10 3 0 8 -4 11 -10z"/>
+        <path d="M4500 2494 c0 -8 63 -35 122 -54 64 -20 93 -19 42 1 -59 23 -164 57
+-164 53z"/>
+      </g>
+    </defs>
+  </svg>
+
+  <section class="hero">
+    <div class="badge">
+      <svg class="badge-icon" viewBox="0 0 407.759589 401.888584"><use href="#kerklogo-mark" xlink:href="#kerklogo-mark" fill="currentColor"/></svg>
+      Hervormd Sliedrecht
+    </div>
+
+    <!-- exact traced church-tower mark -->
+    <svg class="steeple" viewBox="0 0 407.759589 401.888584"><use href="#kerklogo-mark" xlink:href="#kerklogo-mark" fill="#fff"/></svg>
+
+    <div class="hero-inner">
+      <div class="copy">
+        <h1>Liturgie <span class="arrow">→</span> <span class="to">PowerPoint</span></h1>
+        <p class="lede">Upload een liturgie (.docx). De webapp leest het document, toont wat er is gevonden en maakt daarna een kant-en-klare dienst-PowerPoint.</p>
+      </div>
+
+      <div class="card-wrap">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div class="alert" style="margin-bottom:-6px;">
+              <ul>
+                {% for message in messages %}
+                  <li>{{ message }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <form class="card" action="{{ url_for('parse') }}" method="post" enctype="multipart/form-data">
+          <div class="upload-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 16V4M12 4l-4 4M12 4l4 4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+
+          <div class="field">
+            <label for="liturgie">Kies een .docx bestand</label>
+            <div class="file-input">
+              <input type="file" id="liturgie" name="liturgie" accept=".docx" required>
+            </div>
+          </div>
+
+          <button class="submit" type="submit">
+            Upload en controleer
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="wordmark">
+        <span class="eyebrow">Hervormd</span>
+        <span class="name">Sliedrecht</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 3H6a2 2 0 00-2 2v14a2 2 0 002 2h12a2 2 0 002-2V9l-6-6z" stroke-linejoin="round"/><path d="M14 3v6h6" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h3>Lees liturgie</h3>
+        <p>We halen alle onderdelen uit uw document.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h3>Controleer inhoud</h3>
+        <p>Bekijk wat er is gevonden en pas aan waar nodig.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="1.4"/><path d="M8 20h8M12 16v4" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h3>Genereer PowerPoint</h3>
+        <p>Een nette, overzichtelijke presentatie voor de dienst.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="credit">Gemaakt door Micha Visser<br> Met dank aan Arie de Wild</footer>
+
+</body>
+</html>

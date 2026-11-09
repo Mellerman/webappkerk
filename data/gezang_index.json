@@ -1,0 +1,767 @@
+{
+ "001::Gezang 1, Tien geboden.pptx": {
+  "slides_per_verse": 1,
+  "n_verses": 9,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     3
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     4
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     5
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     6
+    ]
+   },
+   {
+    "vers": 6,
+    "slides": [
+     7
+    ]
+   },
+   {
+    "vers": 7,
+    "slides": [
+     8
+    ]
+   },
+   {
+    "vers": 8,
+    "slides": [
+     9
+    ]
+   },
+   {
+    "vers": 9,
+    "slides": [
+     10
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    8,
+    7
+   ],
+   [
+    9,
+    8
+   ],
+   [
+    10,
+    9
+   ]
+  ],
+  "gezang": "001",
+  "file": "Gezang 1, Tien geboden",
+  "n_content_slides": 9
+ },
+ "010::Gezang 10, Bedezang voor het eten.pptx": {
+  "slides_per_verse": 2,
+  "n_verses": 1,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "gemiddeld",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ]
+  ],
+  "gezang": "010",
+  "file": "Gezang 10, Bedezang voor het eten",
+  "n_content_slides": 2
+ },
+ "011::Gezang 11, Dankzang na het eten.pptx": {
+  "slides_per_verse": 2,
+  "n_verses": 1,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "gemiddeld",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ]
+  ],
+  "gezang": "011",
+  "file": "Gezang 11, Dankzang na het eten",
+  "n_content_slides": 2
+ },
+ "012::Gezang 12, Avondzang.pptx": {
+  "slides_per_verse": 1,
+  "n_verses": 7,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     3
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     4
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     5
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     6
+    ]
+   },
+   {
+    "vers": 6,
+    "slides": [
+     7
+    ]
+   },
+   {
+    "vers": 7,
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    8,
+    7
+   ]
+  ],
+  "gezang": "012",
+  "file": "Gezang 12, Avondzang",
+  "n_content_slides": 7
+ },
+ "002::Gezang 2, Lofzang van Maria.pptx": {
+  "slides_per_verse": 2,
+  "n_verses": 7,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     4,
+     5
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     6,
+     7
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     8,
+     9
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     10,
+     11
+    ]
+   },
+   {
+    "vers": 6,
+    "slides": [
+     12,
+     13
+    ]
+   },
+   {
+    "vers": 7,
+    "slides": [
+     14,
+     15
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    12,
+    6
+   ]
+  ],
+  "gezang": "002",
+  "file": "Gezang 2, Lofzang van Maria",
+  "n_content_slides": 14
+ },
+ "003::Gezang 3, Lofzang van Zacharias.pptx": {
+  "slides_per_verse": null,
+  "n_verses": 5,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     14
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    8,
+    3
+   ],
+   [
+    14,
+    5
+   ]
+  ],
+  "gezang": "003",
+  "file": "Gezang 3, Lofzang van Zacharias",
+  "n_content_slides": 13
+ },
+ "004::Gezang 4, Lofzang van Simeon.pptx": {
+  "slides_per_verse": 2,
+  "n_verses": 2,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     4,
+     5
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [
+   "Bronbestand heeft geen vers 2: dia 4 staat als vers 3 gelabeld. Een liturgie met 'Gezang 4: 2' geeft dus een titel-placeholder."
+  ],
+  "bron": "handmatig gecontroleerd",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    3
+   ]
+  ],
+  "gezang": "004",
+  "file": "Gezang 4, Lofzang van Simeon",
+  "n_content_slides": 4
+ },
+ "005::Gezang 5, Gebed des Heeren.pptx": {
+  "slides_per_verse": 2,
+  "n_verses": 9,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     4,
+     5
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     6,
+     7
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     8,
+     9
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     10,
+     11
+    ]
+   },
+   {
+    "vers": 6,
+    "slides": [
+     12,
+     13
+    ]
+   },
+   {
+    "vers": 7,
+    "slides": [
+     14,
+     15
+    ]
+   },
+   {
+    "vers": 8,
+    "slides": [
+     16,
+     17
+    ]
+   },
+   {
+    "vers": 9,
+    "slides": [
+     18,
+     19
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    6,
+    3
+   ],
+   [
+    8,
+    4
+   ],
+   [
+    10,
+    5
+   ],
+   [
+    12,
+    6
+   ],
+   [
+    14,
+    7
+   ],
+   [
+    16,
+    8
+   ]
+  ],
+  "gezang": "005",
+  "file": "Gezang 5, Gebed des Heeren",
+  "n_content_slides": 18
+ },
+ "006::Gezang 6, Twaalf artikelen des geloofs.pptx": {
+  "slides_per_verse": null,
+  "n_verses": 2,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     6,
+     7
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    6,
+    2
+   ],
+   [
+    7,
+    1
+   ]
+  ],
+  "gezang": "006",
+  "file": "Gezang 6, Twaalf artikelen des geloofs",
+  "n_content_slides": 6
+ },
+ "007::Gezang 7, Twaalf artikelen des geloofs 2.pptx": {
+  "slides_per_verse": 3,
+  "n_verses": 4,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     11,
+     12,
+     13
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    5,
+    2
+   ],
+   [
+    8,
+    3
+   ],
+   [
+    11,
+    4
+   ]
+  ],
+  "gezang": "007",
+  "file": "Gezang 7, Twaalf artikelen des geloofs 2",
+  "n_content_slides": 12
+ },
+ "008::Gezang 8, Bedezang voor de predicatie.pptx": {
+  "slides_per_verse": 4,
+  "n_verses": 1,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [
+   "Eén vers over 4 dia's (geen versnummers op dia 3-5)."
+  ],
+  "bron": "handmatig gecontroleerd",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ]
+  ],
+  "gezang": "008",
+  "file": "Gezang 8, Bedezang voor de predicatie",
+  "n_content_slides": 4
+ },
+ "009::Gezang 9, Morgenzang.pptx": {
+  "slides_per_verse": 1,
+  "n_verses": 7,
+  "verses": [
+   {
+    "vers": 1,
+    "slides": [
+     2
+    ]
+   },
+   {
+    "vers": 2,
+    "slides": [
+     3
+    ]
+   },
+   {
+    "vers": 3,
+    "slides": [
+     4
+    ]
+   },
+   {
+    "vers": 4,
+    "slides": [
+     5
+    ]
+   },
+   {
+    "vers": 5,
+    "slides": [
+     6
+    ]
+   },
+   {
+    "vers": 6,
+    "slides": [
+     7
+    ]
+   },
+   {
+    "vers": 7,
+    "slides": [
+     8
+    ]
+   }
+  ],
+  "conflicts": [],
+  "confidence": "hoog",
+  "opmerkingen": [],
+  "bron": "ocr",
+  "ocr_detecties": [
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    3
+   ],
+   [
+    5,
+    4
+   ],
+   [
+    6,
+    5
+   ],
+   [
+    7,
+    6
+   ],
+   [
+    8,
+    7
+   ]
+  ],
+  "gezang": "009",
+  "file": "Gezang 9, Morgenzang",
+  "n_content_slides": 7
+ }
+}

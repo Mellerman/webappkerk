@@ -1,0 +1,1556 @@
+{
+ "2026-01-01": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-01-04": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "HGJS"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-01-11": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-01-18": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Binnenlands diaconaat"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Binnenlands diaconaat"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-01-25": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-02-01": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Stichting De Hoop"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Stichting De Hoop"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-02-08": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Niet-Diaconaal",
+   "doel": "HGJB"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-02-15": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-02-22": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-01": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "HGJS"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-08": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Voorjaarszendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Voorjaarszendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-11": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Biddagcollecte"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-15": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-22": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-03-29": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie, Paasgroetactie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie, Paasgroetactie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-04-03": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Goud van Noord"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Seinpost Slinge"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-04-05": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-04-12": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-04-19": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Israëlcollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Israëlcollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-04-26": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-03": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Niet-Diaconaal",
+   "doel": "Geref. Bond Leerstoelgang"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-10": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie, Werkvakanties"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie, Werkvakanties"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-14": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Stichting Timon"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-17": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-24": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Pinksterzendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Pinksterzendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-05-31": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-06-07": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat, DAC"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat, DAC"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-06-14": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-06-21": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "HGJS"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-06-28": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Stichting Improve"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Stichting Improve"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-07-05": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-07-12": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-07-19": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-07-26": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Niet-Diaconaal",
+   "doel": "Geref. Bond Studiefonds"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-08-02": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-08-09": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-08-16": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zomerzendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zomerzendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-08-23": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Binnenlands diaconaat"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Binnenlands diaconaat"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-08-30": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "HGJS"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-09-06": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-09-13": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Diaconale commissie CHR"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte Diaconale commissie CHR"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-09-20": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-09-27": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-10-04": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Israëlcollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Israëlcollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-10-11": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-10-18": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-10-25": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Najaarzendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Najaarzendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-01": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Hervormde Jeugdraad"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Niet-Diaconaal",
+   "doel": "IZB"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-04": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-08": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal-Zending",
+   "doel": "Zendingscollecte"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-15": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-22": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Niet-Diaconaal",
+   "doel": "Nederland Vlaams Bijbelgenootschap"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Niet-Diaconaal",
+   "doel": "Nederland Vlaams Bijbelgenootschap"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-11-29": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte De Herberg"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconale Avondmaalscollecte De Herberg"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-06": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconaal met doelbestemming"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-13": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Goud van Noord"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Seinpost Slinge"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-20": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Missionair",
+   "doel": "Evangelisatie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-24": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-25": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Werelddiaconaat"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-27": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ],
+ "2026-12-31": [
+  {
+   "rondgang": 1,
+   "wijk": "1-2",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 1,
+   "wijk": "3-4",
+   "type": "Diaconaal",
+   "doel": "Diaconie"
+  },
+  {
+   "rondgang": 2,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Kerkrentmeesterlijk Beheer"
+  },
+  {
+   "rondgang": 3,
+   "wijk": "1-4",
+   "type": "KRM",
+   "doel": "Huis van de Kerk"
+  }
+ ]
+}

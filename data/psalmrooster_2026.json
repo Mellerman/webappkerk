@@ -1,0 +1,1157 @@
+[
+ {
+  "datum": "2026-01-01",
+  "tijd": "10:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 93: 4"
+ },
+ {
+  "datum": "2026-01-04",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 21: 1"
+ },
+ {
+  "datum": "2026-01-04",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 21: 1"
+ },
+ {
+  "datum": "2026-01-04",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 148: 1"
+ },
+ {
+  "datum": "2026-01-11",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 9: 1"
+ },
+ {
+  "datum": "2026-01-11",
+  "tijd": "10:15",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 9: 1"
+ },
+ {
+  "datum": "2026-01-11",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 148: 5"
+ },
+ {
+  "datum": "2026-01-18",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 8: 4"
+ },
+ {
+  "datum": "2026-01-18",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 8: 4"
+ },
+ {
+  "datum": "2026-01-18",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 120: 1"
+ },
+ {
+  "datum": "2026-01-25",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 34: 1"
+ },
+ {
+  "datum": "2026-01-25",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 34: 1"
+ },
+ {
+  "datum": "2026-01-25",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 112: 1"
+ },
+ {
+  "datum": "2026-02-01",
+  "tijd": "08:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 42: 3"
+ },
+ {
+  "datum": "2026-02-01",
+  "tijd": "11:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 42: 3"
+ },
+ {
+  "datum": "2026-02-01",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 112: 5"
+ },
+ {
+  "datum": "2026-02-08",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 62: 1"
+ },
+ {
+  "datum": "2026-02-08",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 62: 1"
+ },
+ {
+  "datum": "2026-02-08",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 117: 1"
+ },
+ {
+  "datum": "2026-02-15",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 22: 1"
+ },
+ {
+  "datum": "2026-02-15",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 22: 1"
+ },
+ {
+  "datum": "2026-02-15",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 127: 3"
+ },
+ {
+  "datum": "2026-02-22",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 111: 3"
+ },
+ {
+  "datum": "2026-02-22",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 111: 3"
+ },
+ {
+  "datum": "2026-02-22",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 28: 1"
+ },
+ {
+  "datum": "2026-03-01",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 19: 5"
+ },
+ {
+  "datum": "2026-03-01",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 19: 5"
+ },
+ {
+  "datum": "2026-03-01",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 28: 5"
+ },
+ {
+  "datum": "2026-03-08",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 25: 4"
+ },
+ {
+  "datum": "2026-03-08",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 25: 4"
+ },
+ {
+  "datum": "2026-03-08",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 53: 6"
+ },
+ {
+  "datum": "2026-03-11",
+  "tijd": "14:30",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Laudate Deum"
+ },
+ {
+  "datum": "2026-03-11",
+  "tijd": "19:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 138: 3"
+ },
+ {
+  "datum": "2026-03-15",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 57: 7"
+ },
+ {
+  "datum": "2026-03-15",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 57: 5"
+ },
+ {
+  "datum": "2026-03-15",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 76: 1"
+ },
+ {
+  "datum": "2026-03-22",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 87: 1"
+ },
+ {
+  "datum": "2026-03-22",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 87: 1"
+ },
+ {
+  "datum": "2026-03-22",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 10: 9"
+ },
+ {
+  "datum": "2026-03-29",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 146: 1"
+ },
+ {
+  "datum": "2026-03-29",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 146: 1"
+ },
+ {
+  "datum": "2026-03-29",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 101: 2"
+ },
+ {
+  "datum": "2026-04-03",
+  "tijd": "09:30",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 116: 2"
+ },
+ {
+  "datum": "2026-04-03",
+  "tijd": "19:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 31: 4"
+ },
+ {
+  "datum": "2026-04-05",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Gz 5: 9"
+ },
+ {
+  "datum": "2026-04-05",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WLd 297: 9"
+ },
+ {
+  "datum": "2026-04-05",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 135: 12"
+ },
+ {
+  "datum": "2026-04-06",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 9: 11"
+ },
+ {
+  "datum": "2026-04-12",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 89: 1"
+ },
+ {
+  "datum": "2026-04-12",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 89: 1"
+ },
+ {
+  "datum": "2026-04-12",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 124: 1"
+ },
+ {
+  "datum": "2026-04-19",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 118: 1"
+ },
+ {
+  "datum": "2026-04-19",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 118: 1"
+ },
+ {
+  "datum": "2026-04-19",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 128: 3"
+ },
+ {
+  "datum": "2026-04-26",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 56: 4"
+ },
+ {
+  "datum": "2026-04-26",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 56: 4"
+ },
+ {
+  "datum": "2026-04-26",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 131: 4"
+ },
+ {
+  "datum": "2026-05-03",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 71: 17"
+ },
+ {
+  "datum": "2026-05-03",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": null
+ },
+ {
+  "datum": "2026-05-03",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 144: 1"
+ },
+ {
+  "datum": "2026-05-10",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 24: 4"
+ },
+ {
+  "datum": "2026-05-10",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 24: 4"
+ },
+ {
+  "datum": "2026-05-10",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 29: 1"
+ },
+ {
+  "datum": "2026-05-14",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 110: 1"
+ },
+ {
+  "datum": "2026-05-17",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 89: 7"
+ },
+ {
+  "datum": "2026-05-17",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 89: 7"
+ },
+ {
+  "datum": "2026-05-17",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 8: 1"
+ },
+ {
+  "datum": "2026-05-24",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 108: 1"
+ },
+ {
+  "datum": "2026-05-24",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 108: 1"
+ },
+ {
+  "datum": "2026-05-24",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 68: 9"
+ },
+ {
+  "datum": "2026-05-25",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 5: 12"
+ },
+ {
+  "datum": "2026-05-31",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 99: 1"
+ },
+ {
+  "datum": "2026-05-31",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 99: 1"
+ },
+ {
+  "datum": "2026-05-31",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 15: 1"
+ },
+ {
+  "datum": "2026-06-07",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 66: 8"
+ },
+ {
+  "datum": "2026-06-07",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 66: 8"
+ },
+ {
+  "datum": "2026-06-07",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 16: 3"
+ },
+ {
+  "datum": "2026-06-14",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 84: 6"
+ },
+ {
+  "datum": "2026-06-14",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 84: 6"
+ },
+ {
+  "datum": "2026-06-14",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 17: 4"
+ },
+ {
+  "datum": "2026-06-21",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 74: 15"
+ },
+ {
+  "datum": "2026-06-21",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 74: 15"
+ },
+ {
+  "datum": "2026-06-21",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 18: 9"
+ },
+ {
+  "datum": "2026-06-28",
+  "tijd": "08:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 81: 11"
+ },
+ {
+  "datum": "2026-06-28",
+  "tijd": "11:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 81: 7"
+ },
+ {
+  "datum": "2026-06-28",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 21: 13"
+ },
+ {
+  "datum": "2026-07-05",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 150: 1"
+ },
+ {
+  "datum": "2026-07-05",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 150: 1"
+ },
+ {
+  "datum": "2026-07-05",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 150: 3"
+ },
+ {
+  "datum": "2026-07-12",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 80: 1"
+ },
+ {
+  "datum": "2026-07-12",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WPs 80: 1"
+ },
+ {
+  "datum": "2026-07-12",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 41: 7"
+ },
+ {
+  "datum": "2026-07-19",
+  "tijd": "09:30",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 105: 2"
+ },
+ {
+  "datum": "2026-07-19",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 111: 3"
+ },
+ {
+  "datum": "2026-07-26",
+  "tijd": "09:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 93: 1"
+ },
+ {
+  "datum": "2026-07-26",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 146: 3"
+ },
+ {
+  "datum": "2026-08-02",
+  "tijd": "09:30",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 119: 3"
+ },
+ {
+  "datum": "2026-08-02",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 25: 7"
+ },
+ {
+  "datum": "2026-08-09",
+  "tijd": "09:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 100: 1"
+ },
+ {
+  "datum": "2026-08-09",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 1: 2"
+ },
+ {
+  "datum": "2026-08-16",
+  "tijd": "09:30",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 101: 1"
+ },
+ {
+  "datum": "2026-08-16",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 29: 6"
+ },
+ {
+  "datum": "2026-08-23",
+  "tijd": "09:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 105: 5"
+ },
+ {
+  "datum": "2026-08-23",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 140: 13"
+ },
+ {
+  "datum": "2026-08-30",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 106: 26"
+ },
+ {
+  "datum": "2026-08-30",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "WPs 106: 22"
+ },
+ {
+  "datum": "2026-08-30",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 65: 2"
+ },
+ {
+  "datum": "2026-09-06",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 122: 1"
+ },
+ {
+  "datum": "2026-09-06",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 122: 1"
+ },
+ {
+  "datum": "2026-09-06",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 92: 1"
+ },
+ {
+  "datum": "2026-09-13",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 133: 1"
+ },
+ {
+  "datum": "2026-09-13",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "WPs 133: 1"
+ },
+ {
+  "datum": "2026-09-13",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 25: 3"
+ },
+ {
+  "datum": "2026-09-20",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 77: 7"
+ },
+ {
+  "datum": "2026-09-20",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 77: 7"
+ },
+ {
+  "datum": "2026-09-20",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 139: 2"
+ },
+ {
+  "datum": "2026-09-27",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 135: 2"
+ },
+ {
+  "datum": "2026-09-27",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "WPs 135: 2"
+ },
+ {
+  "datum": "2026-09-27",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 146: 8"
+ },
+ {
+  "datum": "2026-10-04",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 46: 4"
+ },
+ {
+  "datum": "2026-10-04",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 46: 4"
+ },
+ {
+  "datum": "2026-10-04",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 149: 1"
+ },
+ {
+  "datum": "2026-10-11",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 136: 5"
+ },
+ {
+  "datum": "2026-10-11",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "WPs 136: 4"
+ },
+ {
+  "datum": "2026-10-11",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 113: 3"
+ },
+ {
+  "datum": "2026-10-18",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 86: 6"
+ },
+ {
+  "datum": "2026-10-18",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 86: 6"
+ },
+ {
+  "datum": "2026-10-18",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 111: 5"
+ },
+ {
+  "datum": "2026-10-25",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 139: 14"
+ },
+ {
+  "datum": "2026-10-25",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "WPs 139: 14"
+ },
+ {
+  "datum": "2026-10-25",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 52: 7"
+ },
+ {
+  "datum": "2026-11-01",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 143: 8"
+ },
+ {
+  "datum": "2026-11-01",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 143: 8"
+ },
+ {
+  "datum": "2026-11-01",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 57: 7"
+ },
+ {
+  "datum": "2026-11-04",
+  "tijd": "14:30",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": null
+ },
+ {
+  "datum": "2026-11-04",
+  "tijd": "19:30",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 147: 4"
+ },
+ {
+  "datum": "2026-11-08",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 105: 22"
+ },
+ {
+  "datum": "2026-11-08",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "WPs 105: 19"
+ },
+ {
+  "datum": "2026-11-08",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 35: 11"
+ },
+ {
+  "datum": "2026-11-15",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 146: 4"
+ },
+ {
+  "datum": "2026-11-15",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 146: 4"
+ },
+ {
+  "datum": "2026-11-15",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 33: 6"
+ },
+ {
+  "datum": "2026-11-22",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 147: 1"
+ },
+ {
+  "datum": "2026-11-22",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "WPs 147: 1"
+ },
+ {
+  "datum": "2026-11-22",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 146: 3"
+ },
+ {
+  "datum": "2026-11-29",
+  "tijd": "08:45",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Gz 2: 3"
+ },
+ {
+  "datum": "2026-11-29",
+  "tijd": "11:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WLd 47: 1"
+ },
+ {
+  "datum": "2026-11-29",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Ps 22: 13"
+ },
+ {
+  "datum": "2026-12-06",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Gz 3: 5"
+ },
+ {
+  "datum": "2026-12-06",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Gz 3: 5"
+ },
+ {
+  "datum": "2026-12-06",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 85: 3"
+ },
+ {
+  "datum": "2026-12-13",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Gz 4: 2"
+ },
+ {
+  "datum": "2026-12-13",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WLd 49: 2"
+ },
+ {
+  "datum": "2026-12-13",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 89: 9"
+ },
+ {
+  "datum": "2026-12-20",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Gz 2: 7"
+ },
+ {
+  "datum": "2026-12-20",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Gz 2: 7"
+ },
+ {
+  "datum": "2026-12-20",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Ps 146: 8"
+ },
+ {
+  "datum": "2026-12-25",
+  "tijd": "09:00",
+  "kerk": "MK",
+  "wijk": "4",
+  "voorzang": "Kerstliederen"
+ },
+ {
+  "datum": "2026-12-25",
+  "tijd": "10:45",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Kerstliederen"
+ },
+ {
+  "datum": "2026-12-25",
+  "tijd": "18:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 118: 1"
+ },
+ {
+  "datum": "2026-12-27",
+  "tijd": "09:00",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Gz 12: 7"
+ },
+ {
+  "datum": "2026-12-27",
+  "tijd": "10:45",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "WLd 517: 6"
+ },
+ {
+  "datum": "2026-12-27",
+  "tijd": "18:00",
+  "kerk": "MK",
+  "wijk": "3",
+  "voorzang": "Ps 74: 16"
+ },
+ {
+  "datum": "2026-12-31",
+  "tijd": "19:30",
+  "kerk": "GK",
+  "wijk": "3",
+  "voorzang": "Gz 12: 4"
+ },
+ {
+  "datum": "2027-01-01",
+  "tijd": "10:00",
+  "kerk": "GK",
+  "wijk": "4",
+  "voorzang": "Ps 131: 4"
+ }
+]

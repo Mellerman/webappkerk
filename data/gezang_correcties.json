@@ -1,0 +1,11 @@
+{
+  "_uitleg": "Handmatig gecontroleerde indelingen; winnen van de OCR. Sleutel = gezangnummer, 'verzen' = versnummer -> dia-nummers (dia 1 = titeldia).",
+  "004": {
+    "verzen": {"1": [2, 3], "3": [4, 5]},
+    "opmerking": "Bronbestand heeft geen vers 2: dia 4 staat als vers 3 gelabeld. Een liturgie met 'Gezang 4: 2' geeft dus een titel-placeholder."
+  },
+  "008": {
+    "verzen": {"1": [2, 3, 4, 5]},
+    "opmerking": "Eén vers over 4 dia's (geen versnummers op dia 3-5)."
+  }
+}

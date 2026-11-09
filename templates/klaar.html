@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klaar — PowerPoint gemaakt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-night:   #17110c;
+    --bg-dusk:    #241a12;
+    --terracotta: #c9895a;
+    --terracotta-dark: #a86f45;
+    --card:       #241a12;
+    --card-line:  rgba(255,255,255,0.12);
+    --paper:      #f2e2c9;
+    --muted:      #a99783;
+    --amber:      #e0a458;
+  }
+  *{ box-sizing: border-box; }
+  body{
+    margin:0;
+    font-family: "Inter", system-ui, sans-serif;
+    color: var(--paper);
+    background:
+      radial-gradient(60% 40% at 85% 0%, rgba(201,137,90,.10) 0%, rgba(201,137,90,0) 60%),
+      linear-gradient(180deg, var(--bg-night) 0%, #1c140d 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* faint background watermark of the logo mark for continuity with the upload page */
+  .watermark{
+    position: fixed;
+    top: -8%;
+    right: -10%;
+    width: 620px;
+    max-width: 70vw;
+    opacity: .05;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page-wrap{
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 44px 20px 70px;
+  }
+
+  .top{
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  .badge{
+    display:inline-flex; align-items:center; gap:9px;
+    background: rgba(0,0,0,.28);
+    border: 1px solid var(--card-line);
+    color: var(--paper);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: 600;
+    margin-bottom: 22px;
+  }
+  .badge svg{ width: 22px; height: 22px; }
+
+  h1{
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    line-height: 1.2;
+    margin: 0 0 10px;
+    color: #fff;
+  }
+  h1 .filename{ color: var(--terracotta); font-style: italic; font-weight: 500; }
+  .lede{
+    margin: 0 auto;
+    max-width: 480px;
+    color: #cbb99e;
+    line-height: 1.55;
+    font-size: .98rem;
+  }
+
+  .card{
+    background: rgba(36,26,18,.72);
+    border: 1px solid var(--card-line);
+    border-radius: 20px;
+    padding: 26px 26px 22px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(6px);
+  }
+  .card h2{
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin: 0 0 16px;
+    color: var(--terracotta);
+    letter-spacing: .01em;
+  }
+
+  form.groot{ display: block; }
+  .rows{ display: flex; flex-direction: column; }
+  .row{
+    display: grid;
+    grid-template-columns: 38% 1fr;
+    gap: 14px;
+    padding: 13px 0;
+    border-bottom: 1px solid var(--card-line);
+  }
+  .row:last-child{ border-bottom: none; }
+  .row.single{ grid-template-columns: 1fr; }
+  .row-label{
+    font-weight: 700;
+    font-size: .88rem;
+    color: #cbb99e;
+  }
+  .row-value{
+    font-size: .95rem;
+    color: var(--paper);
+    line-height: 1.5;
+  }
+  .found{ color: var(--paper); }
+  .missing{
+    color: var(--amber);
+    font-style: italic;
+    font-size: .92rem;
+  }
+  .tag{
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 10px;
+    border-radius: 999px;
+    background: rgba(201,137,90,.16);
+    color: var(--terracotta);
+    font-size: .76rem;
+    font-weight: 600;
+    vertical-align: middle;
+  }
+
+  .hint{
+    color: #9c8a70;
+    font-size: .86rem;
+    margin: 12px 0 0;
+    line-height: 1.5;
+  }
+
+  .theme-text{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--paper);
+  }
+
+  form{ display: grid; gap: 18px; }
+  .grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .field label{
+    display:block;
+    font-weight: 600;
+    font-size: .88rem;
+    color: #cbb99e;
+    margin-bottom: 8px;
+  }
+  input[type=text], input[type=date], select{
+    width: 100%;
+    padding: 12px 14px;
+    background: rgba(255,255,255,.03);
+    border: 1px solid var(--card-line);
+    border-radius: 12px;
+    font-size: .96rem;
+    font-family: inherit;
+    color: var(--paper);
+  }
+  input::placeholder{ color: #8a7a63; }
+  input[type=text]:focus, input[type=date]:focus, select:focus{
+    outline: none;
+    border-color: var(--terracotta);
+    box-shadow: 0 0 0 3px rgba(201,137,90,.22);
+  }
+  select{ appearance: auto; }
+  select option{ background: #241a12; color: var(--paper); }
+
+  input[type=file]{
+    color: #cbb99e;
+    font-size: .9rem;
+    font-family: inherit;
+    max-width: 100%;
+  }
+  input[type=file]::file-selector-button{
+    background: var(--terracotta);
+    color: var(--ink);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: .88rem;
+    cursor: pointer;
+    margin-right: 12px;
+    font-family: inherit;
+  }
+
+  button.submit{
+    display:flex; align-items:center; justify-content:center; gap:10px;
+    background: var(--terracotta);
+    color: #241a12;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background .15s ease, transform .15s ease;
+    margin-top: 4px;
+  }
+  button.submit:hover{ background: var(--terracotta-dark); transform: translateY(-1px); }
+  button.submit svg{ width: 18px; height: 18px; }
+
+
+  /* Download-knop: het belangrijkste op deze pagina, dus opvallend (warm goud/oranje op
+     het donkere thema) en met een korte puls die na 3 keer vanzelf stopt. */
+  a.dl-knop{
+    display:flex; align-items:center; justify-content:center; gap:12px;
+    margin-top:14px; padding:18px 26px;
+    background: linear-gradient(135deg, #f7c67f 0%, #eb9a52 55%, #dc7a40 100%);
+    color:#24160b;
+    font-family: inherit; font-size:1.15rem; font-weight:800; letter-spacing:.01em;
+    text-decoration:none; border-radius:16px;
+    box-shadow: 0 10px 28px rgba(235,154,82,.35), inset 0 1px 0 rgba(255,255,255,.45);
+    transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+  }
+  a.dl-knop:hover{
+    transform: translateY(-2px); filter: brightness(1.06);
+    box-shadow: 0 14px 34px rgba(235,154,82,.5), inset 0 1px 0 rgba(255,255,255,.55);
+  }
+  a.dl-knop:active{ transform: translateY(0); }
+  a.dl-knop:focus-visible{ outline: 3px solid #fff3dc; outline-offset: 3px; }
+  a.dl-knop svg{ width:26px; height:26px; flex:none; }
+  @keyframes dl-puls{
+    0%  { box-shadow: 0 10px 28px rgba(235,154,82,.35), 0 0 0 0 rgba(247,198,127,.6); }
+    70% { box-shadow: 0 10px 28px rgba(235,154,82,.35), 0 0 0 18px rgba(247,198,127,0); }
+    100%{ box-shadow: 0 10px 28px rgba(235,154,82,.35), 0 0 0 0 rgba(247,198,127,0); }
+  }
+  @media (prefers-reduced-motion: no-preference){
+    a.dl-knop{ animation: dl-puls 2s ease-out 3; }
+  }
+
+  a.nieuw-knop{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:11px 20px; border-radius:12px;
+    border:1px solid rgba(201,137,90,.55);
+    color:#e6b78e; background:transparent;
+    font-family: inherit; font-size:.95rem; font-weight:600; text-decoration:none;
+    transition: background .15s ease, border-color .15s ease;
+  }
+  a.nieuw-knop:hover{ background: rgba(201,137,90,.14); border-color:#c9895a; }
+
+  .credit{
+    text-align: center;
+    color: #8a7a63;
+    font-size: .8rem;
+    margin-top: 36px;
+  }
+
+  .row.single input[type=text], input[name=kerntekst]{ width: 100%; }
+  button.toevoegen{
+    background: transparent;
+    border: 1px dashed rgba(201,137,90,.5);
+    color: var(--terracotta);
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: .86rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+  button.toevoegen:hover{ border-color: var(--terracotta); }
+
+
+  /* handmatig aanpassen van psalm-/liedregels */
+  .weergave{ display:flex; flex-wrap:wrap; align-items:center; gap:4px 0; }
+  button.wijzig, button.annuleer{
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid rgba(201,137,90,.5);
+    color: var(--terracotta);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  button.wijzig:hover, button.annuleer:hover{ border-color: var(--terracotta); background: rgba(201,137,90,.1); }
+  .bewerk-regel{ display:flex; gap:10px; align-items:center; }
+  .bewerk-regel input[type=text]{ flex:1; min-width:0; }
+  button.annuleer{ margin-left:0; white-space:nowrap; }
+  .status{ font-size:.84rem; margin-top:6px; min-height:1.2em; color:#9c8a70; }
+  .status.goed{ color:#9ccc8a; }
+  .status.let-op{ color:var(--amber); }
+  .status.fout{ color:#e58a7a; }
+  [hidden]{ display:none !important; }
+  .rooster-info{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 2px; }
+  .rooster-info:empty{ display:none; }
+  .rooster-knop{
+    background: transparent;
+    border: 1px solid rgba(201,137,90,.5);
+    color: var(--terracotta);
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: .82rem;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: left;
+    line-height: 1.35;
+  }
+  .rooster-knop:hover, .rooster-knop.actief{ border-color: var(--terracotta); background: rgba(201,137,90,.14); }
+  .rooster-knop small{ display:block; color:#9c8a70; }
+  .rooster-tekst{ width:100%; font-size:.82rem; color:#9c8a70; }
+
+  @media (max-width: 560px){
+    .grid-2{ grid-template-columns: 1fr; }
+    .row{ grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- exact traced church-tower mark, shared with the upload page -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <g id="kerklogo-mark" transform="translate(-61.261010,449.888584) scale(0.1,-0.1)">
+        <path d="M1394 4485 c-4 -8 -12 -15 -20 -15 -17 0 61 -82 94 -99 13 -7 27 -9
+30 -5 4 4 1 9 -6 11 -7 3 -16 12 -21 22 -7 13 -5 17 10 18 10 1 19 -2 19 -7 0
+-5 9 -12 20 -15 16 -5 20 -15 20 -56 l0 -49 -56 0 c-34 0 -53 -4 -49 -10 3 -5
+26 -10 50 -10 24 0 45 -3 48 -7 2 -5 1 -33 -1 -63 -3 -46 -8 -58 -25 -65 -18
+-8 -23 -22 -29 -71 -10 -94 -24 -137 -94 -287 -36 -76 -71 -155 -79 -175 -27
+-70 -56 -198 -81 -362 -15 -99 -34 -185 -47 -215 -55 -123 -72 -148 -127 -186
+-30 -21 -67 -41 -83 -44 -31 -8 -58 -57 -88 -165 -14 -50 -27 -72 -55 -97 -20
+-18 -52 -36 -71 -39 -61 -12 -67 -32 -71 -253 -4 -190 0 -278 34 -771 18 -269
+14 -529 -10 -663 -13 -71 -65 -249 -93 -314 -2 -7 2 -13 10 -13 29 0 97 205
+122 370 19 125 19 464 0 702 -26 334 -37 591 -30 726 4 74 10 146 14 160 5 20
+22 34 63 54 67 32 93 64 114 137 34 117 42 128 101 156 95 43 129 77 177 179
+38 81 46 110 70 266 38 243 64 335 150 523 78 170 95 218 105 305 3 29 11 53
+16 54 6 0 22 -23 38 -53 22 -43 31 -85 47 -204 20 -155 23 -169 70 -370 43
+-183 68 -329 75 -445 8 -132 18 -172 55 -214 30 -34 51 -44 127 -65 64 -18 97
+-52 133 -139 38 -91 59 -123 94 -141 14 -8 28 -21 32 -30 4 -9 10 -90 13 -179
+l6 -164 28 -24 c23 -19 32 -22 48 -14 10 6 48 68 83 138 81 160 116 208 169
+233 46 20 158 26 214 10 22 -6 52 -5 95 5 155 34 445 84 568 99 74 8 242 20
+373 25 250 11 389 22 497 42 36 7 72 12 80 12 8 1 25 -17 37 -39 12 -22 23
+-36 23 -32 0 15 -28 62 -49 81 -19 18 -24 18 -113 3 -148 -26 -158 -27 -464
+-42 -161 -8 -336 -20 -390 -25 -119 -13 -423 -65 -514 -87 -42 -10 -104 -15
+-175 -14 -209 3 -257 -29 -366 -244 -41 -79 -77 -145 -81 -145 -4 0 -14 13
+-23 30 -11 21 -15 62 -15 157 0 155 -9 190 -54 221 -23 16 -43 43 -61 85 -73
+165 -76 169 -182 198 -39 11 -78 30 -93 44 -37 35 -60 112 -60 199 0 97 -21
+229 -69 431 -50 215 -67 305 -82 430 -12 108 -38 190 -73 233 -19 23 -22 35
+-17 87 l6 60 44 5 c25 3 46 11 49 19 4 11 -5 12 -41 7 l-45 -7 -4 48 c-5 56
+-1 65 16 40 8 -9 26 -17 42 -17 25 1 26 2 12 11 -25 14 -22 29 4 29 34 0 13
+13 -92 59 -101 44 -137 50 -146 26z m131 -45 c3 -5 1 -10 -4 -10 -6 0 -11 5
+-11 10 0 6 2 10 4 10 3 0 8 -4 11 -10z"/>
+        <path d="M4500 2494 c0 -8 63 -35 122 -54 64 -20 93 -19 42 1 -59 23 -164 57
+-164 53z"/>
+      </g>
+    </defs>
+  </svg>
+
+  <svg class="watermark" viewBox="0 0 407.759589 401.888584"><use href="#kerklogo-mark" xlink:href="#kerklogo-mark" fill="#fff"/></svg>
+
+  <main class="page-wrap">
+
+    <div class="top">
+      <div class="badge">
+        <svg viewBox="0 0 407.759589 401.888584"><use href="#kerklogo-mark" xlink:href="#kerklogo-mark" fill="currentColor"/></svg>
+        Hervormd Sliedrecht
+      </div>
+      <h1>Je PowerPoint is <span class="filename">klaar</span></h1>
+      <p class="lede">De download start vanzelf. Gebeurt er niets, gebruik dan de knop hieronder.</p>
+    </div>
+
+    <section class="card">
+      <h2>Download</h2>
+      <p class="hint" style="margin-top:0;">{{ bestandsnaam }}</p>
+      <a class="dl-knop" id="dl" href="{{ url_for('download', bestandsnaam=bestandsnaam) }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 4v11M12 15l-4.5-4.5M12 15l4.5-4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download PowerPoint
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>{% if bevindingen %}Let op — {{ bevindingen|length }} aandachtspunt{{ 'en' if bevindingen|length != 1 else '' }}{% else %}Alles automatisch gelukt{% endif %}</h2>
+      {% if bevindingen %}
+      <ul class="bevindingen">
+        {% for b in bevindingen %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+      <p class="hint">Deze punten staan ook in het dienstverslag op de server. Kijk ze na voor je de dienst gebruikt.</p>
+      {% else %}
+      <p class="hint" style="margin-top:0;">Er zijn geen dingen overgeslagen of afgeleid: alles uit de liturgie is ingevuld.</p>
+      {% endif %}
+    </section>
+
+    {% if psalmen %}
+    <section class="card">
+      <h2>Ingevuld</h2>
+      <p class="hint" style="margin-top:0;">{{ psalmen|join(' · ') }}</p>
+    </section>
+    {% endif %}
+
+    <p style="text-align:center; margin-top:20px;"><a class="nieuw-knop" href="{{ url_for('index') }}">← Nieuwe liturgie</a></p>
+
+    <footer class="credit">Gemaakt door Micha Visser<br>Met dank aan Arie de Wild</footer>
+  </main>
+
+  <style>
+    ul.bevindingen{ margin:0 0 4px; padding-left:20px; color:var(--amber); font-size:.92rem; line-height:1.55; }
+    ul.bevindingen li{ margin-bottom:6px; }
+  </style>
+  <script>
+    setTimeout(function () { window.location.href = document.getElementById('dl').href; }, 600);
+  </script>
+</body>
+</html>

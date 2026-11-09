@@ -1,0 +1,464 @@
+[
+    {
+        "book": "GEN",
+        "bookId": 0,
+        "location_id": 0,
+        "verses": "1-50"
+    },
+    {
+        "book": "EXO",
+        "bookId": 1,
+        "location_id": 0,
+        "verses": "1-40"
+    },
+    {
+        "book": "LEV",
+        "bookId": 2,
+        "location_id": 0,
+        "verses": "1-27"
+    },
+    {
+        "book": "NUM",
+        "bookId": 3,
+        "location_id": 0,
+        "verses": "1-36"
+    },
+    {
+        "book": "DEU",
+        "bookId": 4,
+        "location_id": 0,
+        "verses": "1-34"
+    },
+    {
+        "book": "JOS",
+        "bookId": 5,
+        "location_id": 0,
+        "verses": "1-24"
+    },
+    {
+        "book": "JDG",
+        "bookId": 6,
+        "location_id": 0,
+        "verses": "1-21"
+    },
+    {
+        "book": "RUT",
+        "bookId": 7,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "1SA",
+        "bookId": 8,
+        "location_id": 0,
+        "verses": "1-31"
+    },
+    {
+        "book": "2SA",
+        "bookId": 9,
+        "location_id": 0,
+        "verses": "1-24"
+    },
+    {
+        "book": "1KGS",
+        "bookId": 10,
+        "location_id": 0,
+        "verses": "1-22"
+    },
+    {
+        "book": "2KGS",
+        "bookId": 11,
+        "location_id": 0,
+        "verses": "1-25"
+    },
+    {
+        "book": "1CH",
+        "bookId": 12,
+        "location_id": 0,
+        "verses": "1-29"
+    },
+    {
+        "book": "2CH",
+        "bookId": 13,
+        "location_id": 0,
+        "verses": "1-36"
+    },
+    {
+        "book": "EZR",
+        "bookId": 14,
+        "location_id": 0,
+        "verses": "1-10"
+    },
+    {
+        "book": "NEH",
+        "bookId": 15,
+        "location_id": 0,
+        "verses": "1-13"
+    },
+    {
+        "book": "EST",
+        "bookId": 16,
+        "location_id": 0,
+        "verses": "1-10"
+    },
+    {
+        "book": "JOB",
+        "bookId": 17,
+        "location_id": 0,
+        "verses": "1-42"
+    },
+    {
+        "book": "PS",
+        "bookId": 18,
+        "location_id": 0,
+        "verses": "1-150"
+    },
+    {
+        "book": "PRO",
+        "bookId": 19,
+        "location_id": 0,
+        "verses": "1-31"
+    },
+    {
+        "book": "ECC",
+        "bookId": 20,
+        "location_id": 0,
+        "verses": "1-12"
+    },
+    {
+        "book": "SONG",
+        "bookId": 21,
+        "location_id": 0,
+        "verses": "1-8"
+    },
+    {
+        "book": "ISA",
+        "bookId": 22,
+        "location_id": 0,
+        "verses": "1-66"
+    },
+    {
+        "book": "JER",
+        "bookId": 23,
+        "location_id": 0,
+        "verses": "1-52"
+    },
+    {
+        "book": "LAM",
+        "bookId": 24,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "EZEK",
+        "bookId": 25,
+        "location_id": 0,
+        "verses": "1-48"
+    },
+    {
+        "book": "DAN",
+        "bookId": 26,
+        "location_id": 0,
+        "verses": "1-12"
+    },
+    {
+        "book": "HOS",
+        "bookId": 27,
+        "location_id": 0,
+        "verses": "1-14"
+    },
+    {
+        "book": "JOEL",
+        "bookId": 28,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "AMO",
+        "bookId": 29,
+        "location_id": 0,
+        "verses": "1-9"
+    },
+    {
+        "book": "OBA",
+        "bookId": 30,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "JON",
+        "bookId": 31,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "MIC",
+        "bookId": 32,
+        "location_id": 0,
+        "verses": "1-7"
+    },
+    {
+        "book": "NAH",
+        "bookId": 33,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "HAB",
+        "bookId": 34,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "ZEP",
+        "bookId": 35,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "HAG",
+        "bookId": 36,
+        "location_id": 0,
+        "verses": "1-2"
+    },
+    {
+        "book": "ZEC",
+        "bookId": 37,
+        "location_id": 0,
+        "verses": "1-14"
+    },
+    {
+        "book": "MAL",
+        "bookId": 38,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "TOB",
+        "bookId": 39,
+        "location_id": 0,
+        "verses": "1-14"
+    },
+    {
+        "book": "JDT",
+        "bookId": 40,
+        "location_id": 0,
+        "verses": "1-16"
+    },
+    {
+        "book": "ESG",
+        "bookId": 41,
+        "location_id": 0,
+        "verses": "1-10"
+    },
+    {
+        "book": "WIS",
+        "bookId": 42,
+        "location_id": 0,
+        "verses": "1-19"
+    },
+    {
+        "book": "SIR",
+        "bookId": 43,
+        "location_id": 0,
+        "verses": "1-51"
+    },
+    {
+        "book": "BAR",
+        "bookId": 44,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "LJE",
+        "bookId": 45,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "1MA",
+        "bookId": 46,
+        "location_id": 0,
+        "verses": "1-16"
+    },
+    {
+        "book": "2MA",
+        "bookId": 47,
+        "location_id": 0,
+        "verses": "1-15"
+    },
+    {
+        "book": "DAG",
+        "bookId": 48,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "MAN",
+        "bookId": 49,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "MAT",
+        "bookId": 50,
+        "location_id": 0,
+        "verses": "1-28"
+    },
+    {
+        "book": "MARK",
+        "bookId": 51,
+        "location_id": 0,
+        "verses": "1-16"
+    },
+    {
+        "book": "LUK",
+        "bookId": 52,
+        "location_id": 0,
+        "verses": "1-24"
+    },
+    {
+        "book": "JOHN",
+        "bookId": 53,
+        "location_id": 0,
+        "verses": "1-21"
+    },
+    {
+        "book": "ACT",
+        "bookId": 54,
+        "location_id": 0,
+        "verses": "1-28"
+    },
+    {
+        "book": "ROM",
+        "bookId": 55,
+        "location_id": 0,
+        "verses": "1-16"
+    },
+    {
+        "book": "1CO",
+        "bookId": 56,
+        "location_id": 0,
+        "verses": "1-16"
+    },
+    {
+        "book": "2CO",
+        "bookId": 57,
+        "location_id": 0,
+        "verses": "1-13"
+    },
+    {
+        "book": "GAL",
+        "bookId": 58,
+        "location_id": 0,
+        "verses": "1-6"
+    },
+    {
+        "book": "EPH",
+        "bookId": 59,
+        "location_id": 0,
+        "verses": "1-6"
+    },
+    {
+        "book": "PHIL",
+        "bookId": 60,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "COL",
+        "bookId": 61,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "1TH",
+        "bookId": 62,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "2TH",
+        "bookId": 63,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "1TI",
+        "bookId": 64,
+        "location_id": 0,
+        "verses": "1-6"
+    },
+    {
+        "book": "2TI",
+        "bookId": 65,
+        "location_id": 0,
+        "verses": "1-4"
+    },
+    {
+        "book": "TIT",
+        "bookId": 66,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "PHLM",
+        "bookId": 67,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "HEB",
+        "bookId": 68,
+        "location_id": 0,
+        "verses": "1-13"
+    },
+    {
+        "book": "JAS",
+        "bookId": 69,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "1PE",
+        "bookId": 70,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "2PE",
+        "bookId": 71,
+        "location_id": 0,
+        "verses": "1-3"
+    },
+    {
+        "book": "1JOHN",
+        "bookId": 72,
+        "location_id": 0,
+        "verses": "1-5"
+    },
+    {
+        "book": "2JOHN",
+        "bookId": 73,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "3JOHN",
+        "bookId": 74,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "JUD",
+        "bookId": 75,
+        "location_id": 0,
+        "verses": "1-0"
+    },
+    {
+        "book": "REV",
+        "bookId": 76,
+        "location_id": 0,
+        "verses": "1-22"
+    }
+]

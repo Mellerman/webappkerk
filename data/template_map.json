@@ -1,0 +1,58 @@
+{
+  "_uitleg": "Dit bestand legt vast op welke dia-nummers de verschillende onderdelen van het kerksjabloon staan. Uitgezocht voor: 20260510_GK_avonddienst_wijk4_1800_Ds_A_M___Van_Mourik-Emst.pptx",
+
+  "template_file": "sjabloon_avonddienst.pptx",
+
+  "titel_dia": {
+    "slide": 1,
+    "_uitleg": "thema/aanvangstijd/voorganger + orgelfoto die per kerkgebouw wisselt",
+    "orgelfoto_per_kerk": {
+      "GK": "assets/orgel_grotekerk.png",
+      "MK": "assets/orgel_maranathakerk.png"
+    }
+  },
+
+  "welkom_dia": {
+    "slide": 7,
+    "_uitleg": "voorganger + organist"
+  },
+
+  "orde_van_dienst_dias": [2, 6],
+
+  "wet_en_geloofsbelijdenis": {
+    "wet_slide": 16,
+    "geloofsbelijdenis_slide": 17,
+    "_uitleg": "precies 1 van de 2 moet zichtbaar zijn: wet bij ochtenddienst, geloofsbelijdenis bij avonddienst"
+  },
+
+  "collecte_doel_dias": [4, 32, 56],
+  "_let_op_collecte": "dit sjabloon gebruikt al het Eerste/Tweede/Derde-Rondgang-format (net als data/assets/collecte_dia.pptx), maar de assemble.py in deze zip heeft nog de oudere, simpele schrijfwijze (1 samengevoegde tekst i.p.v. de nette import) -- dat verandert niets aan template_map, alleen aan hoe de collectedoelen-tekst er straks uitziet.",
+
+  "secties": {
+    "_uitleg": "Elke sectie is een psalm/lied-plek in de dienst. 'titel_dias' zijn dia's met alleen de titeltekst (soms komt de titel dubbel voor, zoals bij voor_prediking). 'oude_versdias' zijn de dia's die verwijderd en vervangen worden door de nieuwe psalmverzen.",
+    "voorzang":        {"titel_dias": [9],      "oude_versdias": [10, 11]},
+    "opening":         {"titel_dias": [13],     "oude_versdias": [14, 15]},
+    "na_wet":          {"titel_dias": [18],     "oude_versdias": [19, 20]},
+    "voor_prediking":  {"titel_dias": [30, 34], "oude_versdias": [35, 36, 37, 38]},
+    "na_prediking":    {"titel_dias": [43],     "oude_versdias": [44, 45, 46, 47]},
+    "slot":            {"titel_dias": [49],     "oude_versdias": [50, 51, 52]}
+  },
+
+  "schriftlezing": {
+    "overzicht_dia": 22,
+    "lezingen": [
+      {"titel_dia": 23, "oude_tekstdias": [23, 24, 25, 26]},
+      {"titel_dia": 59, "oude_tekstdias": [59]}
+    ],
+    "_uitleg_lezingen": "dit sjabloon heeft nu 2 schriftlezing-plekken (dia 23 en de toegevoegde dia 59, beide als simpele 1-dia-placeholder net als het origineel). Bij een liturgie met 3+ lezingen valt de derde eraf. De overzicht_dia (22) is uitgebreid naar 3 tekstregels (titel + 2 referenties) zodat beide lezingen in het overzicht zichtbaar zijn.",
+    "kerntekst_dias": [27, 40],
+    "verkondiging_referentie_dia": 39,
+    "thema_dias": [1, 28, 41]
+  },
+
+  "weerklank_placeholder": {
+    "_uitleg": "Weerklank-liederen (Wk) komen niet uit onze eigen psalmbibliotheek maar uit de liedbundelsonline-converter. De app zet er een titeldia neer als duidelijke placeholder."
+  },
+
+  "bijbeltekst_placeholder_tekst": "[ Bijbeltekst hier plakken ]"
+}

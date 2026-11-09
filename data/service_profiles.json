@@ -1,0 +1,441 @@
+{
+  "standard": {
+    "label": "Standaarddienst",
+    "kind": "standard",
+    "template_map": "template_map.json"
+  },
+  "avondmaal": {
+    "label": "Avondmaalsdienst",
+    "kind": "voorbeeld",
+    "variants": {
+      "ochtend": {
+        "template_file": "templates/avondmaal_ochtend_voorbeeld.pptx",
+        "template_map": {
+          "titel_dia": {
+            "slide": 1,
+            "orgelfoto_per_kerk": {
+              "GK": "assets/orgel_grotekerk.png",
+              "MK": "assets/orgel_maranathakerk.png"
+            }
+          },
+          "welkom_dia": {
+            "slide": 10
+          },
+          "orde_van_dienst_dias": [
+            2,
+            9
+          ],
+          "orde_van_dienst_mode": "lezingen",
+          "collecte_doel_dias": [
+            4,
+            36,
+            93
+          ],
+          "muziekmomenten": [
+            {
+              "titel_dias": [
+                12
+              ],
+              "oude_versdias": [
+                13,
+                14
+              ]
+            },
+            {
+              "titel_dias": [
+                16
+              ],
+              "oude_versdias": [
+                17,
+                18,
+                19
+              ]
+            },
+            {
+              "titel_dias": [
+                34,
+                40
+              ],
+              "oude_versdias": [
+                41,
+                42,
+                43,
+                44
+              ]
+            },
+            {
+              "titel_dias": [
+                49
+              ],
+              "oude_versdias": [
+                50,
+                51,
+                52,
+                53
+              ]
+            },
+            {
+              "titel_dias": [
+                73
+              ],
+              "oude_versdias": [
+                74,
+                75,
+                76
+              ]
+            },
+            {
+              "titel_dias": [
+                77
+              ],
+              "oude_versdias": [
+                78,
+                79,
+                80
+              ]
+            },
+            {
+              "titel_dias": [
+                81
+              ],
+              "oude_versdias": [
+                82,
+                83
+              ]
+            },
+            {
+              "titel_dias": [
+                85
+              ],
+              "oude_versdias": [
+                86,
+                87,
+                88,
+                89
+              ]
+            }
+          ],
+          "schriftlezing": {
+            "overzicht_dia": 22,
+            "lezingen": [
+              {
+                "titel_dia": 23,
+                "oude_tekstdias": [
+                  23,
+                  24,
+                  25,
+                  26
+                ]
+              },
+              {
+                "titel_dia": 27,
+                "oude_tekstdias": [
+                  27,
+                  28,
+                  29,
+                  30
+                ]
+              }
+            ],
+            "kerntekst_dias": [
+              31,
+              46
+            ],
+            "verkondiging_referentie_dia": 45,
+            "thema_dias": [
+              1,
+              32,
+              47
+            ]
+          },
+          "bijbeltekst_placeholder_tekst": "[ Bijbeltekst hier plakken ]"
+        }
+      },
+      "tweede_ochtend": {
+        "template_file": "templates/avondmaal_ochtend_tweede_voorbeeld.pptx",
+        "template_map": {
+          "titel_dia": {
+            "slide": 1,
+            "orgelfoto_per_kerk": {
+              "GK": "assets/orgel_grotekerk.png",
+              "MK": "assets/orgel_maranathakerk.png"
+            }
+          },
+          "welkom_dia": {
+            "slide": 11
+          },
+          "orde_van_dienst_dias": [
+            2,
+            10
+          ],
+          "orde_van_dienst_mode": "lezingen",
+          "collecte_doel_dias": [
+            5,
+            36,
+            94
+          ],
+          "muziekmomenten": [
+            {
+              "titel_dias": [
+                13
+              ],
+              "oude_versdias": [
+                14,
+                15
+              ]
+            },
+            {
+              "titel_dias": [
+                17
+              ],
+              "oude_versdias": [
+                18,
+                19,
+                20
+              ]
+            },
+            {
+              "titel_dias": [
+                40
+              ],
+              "oude_versdias": [
+                41,
+                42,
+                43,
+                44
+              ]
+            },
+            {
+              "titel_dias": [
+                49
+              ],
+              "oude_versdias": [
+                50,
+                51,
+                52,
+                53
+              ]
+            },
+            {
+              "titel_dias": [
+                73
+              ],
+              "oude_versdias": [
+                74,
+                75,
+                76
+              ]
+            },
+            {
+              "titel_dias": [
+                77
+              ],
+              "oude_versdias": [
+                78,
+                79,
+                80
+              ]
+            },
+            {
+              "titel_dias": [
+                81
+              ],
+              "oude_versdias": [
+                82,
+                83
+              ]
+            },
+            {
+              "titel_dias": [
+                85
+              ],
+              "oude_versdias": [
+                86,
+                87,
+                88,
+                89
+              ]
+            }
+          ],
+          "schriftlezing": {
+            "overzicht_dia": 23,
+            "lezingen": [
+              {
+                "titel_dia": 24,
+                "oude_tekstdias": [
+                  24,
+                  25,
+                  26,
+                  27
+                ]
+              },
+              {
+                "titel_dia": 28,
+                "oude_tekstdias": [
+                  28,
+                  29,
+                  30,
+                  31
+                ]
+              }
+            ],
+            "kerntekst_dias": [
+              32,
+              46
+            ],
+            "verkondiging_referentie_dia": 45,
+            "thema_dias": [
+              1,
+              33,
+              47
+            ]
+          },
+          "bijbeltekst_placeholder_tekst": "[ Bijbeltekst hier plakken ]"
+        }
+      }
+    }
+  },
+  "avondmaal_voortzetting": {
+    "label": "Avondmaalsvoortzetting",
+    "kind": "voorbeeld",
+    "template_file": "templates/avondmaal_avond_voorbeeld.pptx",
+    "template_map": {
+      "titel_dia": {
+        "slide": 1,
+        "orgelfoto_per_kerk": {
+          "GK": "assets/orgel_grotekerk.png",
+          "MK": "assets/orgel_maranathakerk.png"
+        }
+      },
+      "welkom_dia": {
+        "slide": 8
+      },
+      "orde_van_dienst_dias": [
+        2,
+        7
+      ],
+      "orde_van_dienst_mode": "lezingen",
+      "collecte_doel_dias": [
+        4,
+        46,
+        74
+      ],
+      "muziekmomenten": [
+        {
+          "titel_dias": [
+            10
+          ],
+          "oude_versdias": [
+            11,
+            12
+          ]
+        },
+        {
+          "titel_dias": [
+            14
+          ],
+          "oude_versdias": [
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "titel_dias": [
+            22
+          ],
+          "oude_versdias": [
+            23,
+            24
+          ]
+        },
+        {
+          "titel_dias": [
+            26
+          ],
+          "oude_versdias": [
+            27,
+            28
+          ]
+        },
+        {
+          "titel_dias": [
+            44,
+            49
+          ],
+          "oude_versdias": [
+            50,
+            51,
+            52,
+            53
+          ]
+        },
+        {
+          "titel_dias": [
+            57
+          ],
+          "oude_versdias": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        {
+          "titel_dias": [
+            64
+          ],
+          "oude_versdias": [
+            65,
+            66
+          ]
+        },
+        {
+          "titel_dias": [
+            68
+          ],
+          "oude_versdias": [
+            69,
+            70
+          ]
+        }
+      ],
+      "schriftlezing": {
+        "overzicht_dia": 30,
+        "lezingen": [
+          {
+            "titel_dia": 31,
+            "oude_tekstdias": [
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ],
+        "referentie_only_dias": [
+          40
+        ],
+        "kerntekst_dias": [
+          41,
+          54
+        ],
+        "verkondiging_referentie_dia": 53,
+        "thema_dias": [
+          1,
+          42,
+          55
+        ]
+      },
+      "bijbeltekst_placeholder_tekst": "[ Bijbeltekst hier plakken ]"
+    }
+  }
+}

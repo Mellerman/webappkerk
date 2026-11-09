@@ -1,0 +1,50 @@
+============================================================
+DIENSTVERSLAG
+============================================================
+STATUS: MISLUKT -- de PowerPoint kon niet worden samengesteld.
+Gegenereerd:   2026-11-08 19:55:15
+PowerPoint:    dienst_GK_20261108_195513_f03b8f.pptx
+
+DIENSTGEGEVENS
+------------------------------------------------------------
+Datum dienst:  2026-03-29
+Aanvangstijd:  18:00
+Kerk:          GK (Grote Kerk)
+Type dienst:   Avonddienst
+Voorganger:    SJ Verheij
+Organist:      Jan Dekker
+Thema:         gekroond en bespot
+Bijbelteksten: automatisch ingevuld uit de HSV
+
+LITURGIE (zoals op het controlescherm)
+------------------------------------------------------------
+Liedmoment 1: Psalm 101: 2 -- automatisch gevuld uit de bibliotheek
+Liedmoment 2: Psalm 8: 1, 4, 5 -- automatisch gevuld uit de bibliotheek
+Liedmoment 3: Psalm 69: 3 -- automatisch gevuld uit de bibliotheek
+Liedmoment 4: Psalm 132: 10, 11, 12 -- automatisch gevuld uit de bibliotheek
+Liedmoment 5: Psalm 103: 2 -- automatisch gevuld uit de bibliotheek
+Liedmoment 6: Psalm 89: 7, 8 -- automatisch gevuld uit de bibliotheek
+Liedmoment 7: Psalm 8: 4, 5, 6, 7, 8, 9, 10 -- automatisch gevuld uit de bibliotheek
+
+
+SCHRIFTLEZINGEN
+------------------------------------------------------------
+1. Gen. 3:17-19
+   -> automatisch gevuld met bijbeltekst
+2. Mark. 15:16-20
+   -> automatisch gevuld met bijbeltekst
+
+KERNTEKST
+------------------------------------------------------------
+Mark. 15:17b
+-> automatisch gevuld; deels verzen: de a/b-delen zijn op een zinsgrens gesplitst (best effort)
+
+VOORZANG EN COLLECTE
+------------------------------------------------------------
+Voorzang: uit de liturgie
+Collectedoelen: niet opgezocht (geen datum ingevuld)
+
+BEVINDINGEN
+------------------------------------------------------------
+LET OP: run_index buiten bereik
+Er is daarom geen dienst-PowerPoint gedownload.
