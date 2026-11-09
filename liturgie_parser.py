@@ -625,6 +625,14 @@ def parse_losse_tekst(tekst):
         if m:
             verwerk_tekstveld(result, 'kerntekst', m.group(1).strip())
             continue
+        # "Preek:" losjes als label: alleen als EERSTE woord van de regel (niet
+        # "Voor preek: Ps. 119:..." -- dat is het liedmoment, geen kerntekst/thema),
+        # dan wel altijd verwerkt (ook zonder bijbelverwijzing erachter, net als
+        # de stellige labels hierboven: zie 'Preek: Genade & waarheid' in het verslag).
+        m = re.match(r'preek\b\s*(?:over\s+)?:\s*(.+)', line, re.IGNORECASE)
+        if m:
+            verwerk_tekstveld(result, 'kerntekst', m.group(1).strip())
+            continue
         if not result.get('kerntekst'):
             m = re.search(r'(?<![a-z])(?:tekst|prediking|verkondiging|kerntekst)\b\s*(?:over\s+)?[:\-\u2013]?\s*(\S.*)', line, re.IGNORECASE)
             if m and (begint_met_boeknaam(m.group(1)) or korte_verwijzing_begin(m.group(1))):

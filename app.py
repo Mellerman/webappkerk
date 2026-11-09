@@ -171,11 +171,6 @@ def parse_regel():
     tekst = ((request.get_json(silent=True) or {}).get("tekst") or "").strip()
     if not tekst:
         return jsonify(ok=True, leeg=True)
-    if soort == "lezing" and re.search(r"(?:catechismus|\bcat\.?\s*zondag|heid\.?\s*cat\.?)", tekst, re.IGNORECASE):
-        return jsonify(ok=True, leeg=False, resultaten=[{
-            "tekst": tekst, "herkend": True, "titel": tekst,
-            "deels": False, "automatisch": False, "referentie": True,
-        }])
     parsed = parse_psalmregel(tekst)
     if not parsed:
         return jsonify(ok=False, leeg=False)
